@@ -82,7 +82,7 @@ def read_chat_data(data_path,vocabulary_path, max_size=None):
             if counter % 10000 == 0:
               print("  reading data line %d" % counter)
               sys.stdout.flush()
-            print(line)
+            # print(line)
             entities = line.lower().split("\t")
             # print entities
             if len(entities) == 2:
